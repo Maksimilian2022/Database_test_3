@@ -180,7 +180,6 @@ select Duration, Song_name from Songs
 order by Duration desc
 limit 1
 
-
 select exutor_name from exutor
-where exutor_name not in (' ');
+where exutor_name not like (' ');
 
